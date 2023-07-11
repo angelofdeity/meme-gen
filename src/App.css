@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Inter, sans-serif;
+  color: white;
+}
+nav {
+  display: flex;
+  padding-right: 37px;
+  padding-left: 20px;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+}
+
+.nav--right {
+  font-weight: 500;
+  font-size: 14px;
+}
+nav h4 {
+  font-family: Karla, sans-serif;
+  font-size: 20.748px;
+  font-weight: 700;
+  letter-spacing: -2.075px;
+}
+main {
+  padding: 36px 36px 55px;
+  display: grid;
+  place-items: center;
+}
+main form {
+  display: grid;
+  gap: 17px;
+}
+.input-section {
+  display: flex;
+  gap: 17px;
+}
+.input-box {
+  border-radius: 5px;
+  height: 35px;
+  width: 50%;
+  border: 1px solid #D5D4D8;
+  padding-left: 10px;
+
+  color: #0D0D0D;
+  font-family: Karla,sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.submit-meme {
+  text-align: center;
+  font-family: Karla;
+  color: #fff;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -1.6px;
+  height: 40px;
+}
+
+.memeImg {
+  border-radius: 2px;
+  width: 477px;
+  height: 268px;
+  background: url('assets/memeimg.png') lightgray 50% / cover no-repeat;
+}
