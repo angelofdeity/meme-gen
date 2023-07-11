@@ -29,28 +29,19 @@ main {
   display: grid;
   place-items: center;
 }
-main form {
-  display: grid;
-  gap: 17px;
-}
-.input-section {
-  display: flex;
-  gap: 17px;
-}
-.input-box {
-  border-radius: 5px;
-  height: 35px;
-  width: 50%;
-  border: 1px solid #D5D4D8;
-  padding-left: 10px;
 
+.form--input {
+  border-radius: 5px;
+  width: 230px;
+  border: 1px solid #D5D4D8;
+  text-indent: 10px;
   color: #0D0D0D;
   font-family: Karla,sans-serif;
   font-size: 12px;
   font-weight: 400;
 }
 
-.submit-meme {
+.form--button {
   text-align: center;
   font-family: Karla;
   color: #fff;
@@ -58,9 +49,9 @@ main form {
   background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
   border: none;
   font-size: 16px;
+  grid-column: 1 / -1;
   font-weight: 700;
   letter-spacing: -1.6px;
-  height: 40px;
 }
 
 .memeImg {
@@ -69,3 +60,10 @@ main form {
   height: 268px;
   background: url('assets/memeimg.png') lightgray 50% / cover no-repeat;
 }
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
